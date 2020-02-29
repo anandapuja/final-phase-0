@@ -21,19 +21,19 @@ fNama.addEventListener('submit', function(e) {
     
     // logic condition
     if(lamakerja < 12){
-        document.querySelector('#hasil div h2').innerHTML = `${nama} belum wajib berzakat.`;
+        document.querySelector('#hasil div h2').innerHTML = `'${nama}' belum wajib berzakat.`;
         document.getElementById('form').style.display = 'none';
     }
     else if(penghasilanTahunan < pengeluaranTahunan) {
-        document.querySelector('#hasil div h2').innerHTML = `${nama} terlalu boros, besar pasak dari pada tiang.`;
+        document.querySelector('#hasil div h2').innerHTML = `'${nama}' terlalu boros, besar pasak dari pada tiang.`;
         document.getElementById('form').style.display = 'none';
     }
     else if(totalHarta < haul && lamakerja >= 12) {
-        document.querySelector('#hasil div h2').innerHTML = `${nama} belum wajib berzakat.`;
+        document.querySelector('#hasil div h2').innerHTML = `'${nama}' belum wajib berzakat.`;
         document.getElementById('form').style.display = 'none';
     }
     else {
-        document.querySelector('#hasil div h2').innerHTML = `Zakat yang harus ${nama} bayarkan adalah Rp.${nilaiZakat},- dalam satu tahun.`;
+        document.querySelector('#hasil div h2').innerHTML = `Zakat yang harus '${nama}' bayarkan adalah Rp.${nilaiZakat},- dalam satu tahun.`;
         document.getElementById('form').style.display = 'none';
     }
 

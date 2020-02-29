@@ -15,7 +15,8 @@
     h1, h2 {
         text-align: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: 10px 0;
+        margin: 30px 0;
+        padding: 0 30px;
     }
     img {
         max-width: 200px;
@@ -24,10 +25,13 @@
     }
     #form {
         padding: 30px;
-        background: #F39324;
-        border: none;
+        background :#828282;
         border-radius: 20px;
         box-shadow: 3px 3px 3px 1px rgb(194, 194, 194);
+        transition: 0.6s;
+    }
+    #form:hover {
+        background: #EB5C2B;
     }
     #kalkulator {
         margin: 0 auto;
@@ -56,19 +60,19 @@
         font-size: 15px;
         text-transform: uppercase;
         margin-top: 20px;
-        transition: 1s;
+        transition: 0.6s;
     }
     .submit:hover {
-        background-color: #E85B28;
+        background-color: #333333;
         border: 1px solid white;
     }
     #hasil {
         display: none;
         width: 500px;
-        margin: 0 auto;
-        color: black;
+        color: #F39222;
         padding: 20px;
-        padding: 10px;
         border-radius: 20px;
         margin: 30px auto;
+        background-color: #333;
+        box-shadow: 3px 3px 3px 1px rgb(194, 194, 194);
     }

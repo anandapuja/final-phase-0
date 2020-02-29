@@ -1,13 +1,16 @@
-
 @media screen and (max-width: 600px) {
 
     img {
-        max-width: 40%;
+        width: 100%;
     }
     #kalkulator {
         width: 100%;
     }
     #form {
+        border-radius: 0;
+    }
+    #hasil {
+        width: 100%;
         border-radius: 0;
     }
 }
