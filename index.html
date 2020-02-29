@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aplikasi Penghitung Zakat Staf Hacktiv8</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="shortcut icon" href="img/logo.png">
+    </head>
+    <body>
+        <header>
+            <a href="">
+                <img id="img-logo" src="img/logo-bw.png" />
+            </a>
+            <h1 class="align-center">APLIKASI HITUNG ZAKAT H8</h1>
+        </header>
+        <section id='kalkulator'>
+            <fieldset id="form">
+                <form id="username">
+                    <input type="text" id="name" class="kolom align-center" placeholder="Nama Lengkap Anda?" required>
+
+                    <input type="number" id="penghasilan" class="kolom align-center" placeholder="Berapa penghasilan bulanan Anda?" max="1000000000" required>
+
+                    <input type="number" id="pengeluaran" class="kolom align-center" placeholder="Berapa pengeluaran bulanan Anda?" max="1000000000" required>
+
+                    <input type="number" id="lamakerja" class="kolom align-center" placeholder="Sudah berapa bulan Anda bekerja?" max="240" required>
+
+                    <button class="submit">HITUNG ZAKAT</button>
+                </form>
+            </fieldset>
+        </section>
+        <section id="hasil">
+            <div>
+                <h2 class="align-center"></h2>
+            </div>
+        </section>
+        <footer>
+
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
