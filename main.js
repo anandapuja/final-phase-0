@@ -48,12 +48,3 @@ logoBw.addEventListener('mouseover', function() {
 logoBw.addEventListener('mouseout', function() {
     logoBw.src = 'img/logo-bw.png';
 });
-
-// ubah CSS submit
-const summit = document.getElementsByClassName('submit');
-summit.addEventListener('mouseover', function() {
-    summit[0].style.backgroundColor = 'red';
-});
-// summit.addEventListener('mouseout', function() {
-//     summit[0].style.backgroundColor = '#2c2c96';
-// });
